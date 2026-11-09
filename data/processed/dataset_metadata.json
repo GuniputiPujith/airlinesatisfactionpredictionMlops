@@ -1,0 +1,52 @@
+{
+    "dataset_name": "Airline Passenger Satisfaction",
+    "target_column": "satisfaction",
+    "train_shape_raw": [
+        20780,
+        22
+    ],
+    "test_shape_raw": [
+        5196,
+        22
+    ],
+    "train_shape_transformed": [
+        20780,
+        23
+    ],
+    "test_shape_transformed": [
+        5196,
+        23
+    ],
+    "numerical_features": [
+        "Age",
+        "Flight Distance",
+        "Inflight wifi service",
+        "Departure/Arrival time convenient",
+        "Ease of Online booking",
+        "Gate location",
+        "Food and drink",
+        "Online boarding",
+        "Seat comfort",
+        "Inflight entertainment",
+        "On-board service",
+        "Leg room service",
+        "Baggage handling",
+        "Checkin service",
+        "Inflight service",
+        "Cleanliness",
+        "Departure Delay in Minutes",
+        "Arrival Delay in Minutes"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Customer Type",
+        "Type of Travel",
+        "Class"
+    ],
+    "split_test_size": 0.2,
+    "split_random_state": 42,
+    "fixed_test_set": true,
+    "test_customer_ids_path": "data/processed\\test_customer_ids.csv",
+    "raw_train_path": "data/processed\\X_train_raw.csv",
+    "raw_test_path": "data/processed\\X_test_raw.csv"
+}

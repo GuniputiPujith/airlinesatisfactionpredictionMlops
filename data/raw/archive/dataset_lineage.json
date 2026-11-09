@@ -1,0 +1,12 @@
+[
+  {
+    "dataset_version": "v02",
+    "archive_file": "data/raw/archive/airline_v01.csv",
+    "source_file": "data/raw/new_airline.csv",
+    "new_data_hash": "509b8c5ac26a11d718052d63a70d09dac5b72e440055376d9d316bd69f6cffa3",
+    "previous_rows": 24476,
+    "new_rows": 1500,
+    "current_rows": 25976,
+    "timestamp": "2026-11-08T10:00:04.052167+00:00"
+  }
+]
